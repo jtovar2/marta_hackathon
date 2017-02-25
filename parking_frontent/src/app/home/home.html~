@@ -1,0 +1,9 @@
+<h1>empty home</h1>
+
+
+<ui-gmap-google-map center='map.center' zoom='map.zoom'>
+  <div ng-repeat="marker in markers">
+  <ui-gmap-marker coords="marker.coords" idkey="marker.idKey" options="marker.options">
+  </ui-gmap-marker>
+  </div>
+</ui-gmap-google-map>

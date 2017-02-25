@@ -1,0 +1,23 @@
+/**
+ *  Any Bower installations that have SASS files go here.
+ *
+ */
+
+@import '../../bower_components/foundation/scss/foundation.scss';
+
+/**
+ *  If you want to override some foundation settings, you have to change values here.
+ *  The list of settings values are listed here bower_components/foundation/scss/foundation/_settings.scss
+ */
+
+
+//Available at https://github.homedepot.com/ux/angular1.5-material-framework
+@import 'styles/_app.scss';
+
+
+/**
+ *  Do not remove this comments bellow. It's the markers used by gulp-inject to inject
+ *  all your sass files automatically
+ */
+// injector
+// endinjector

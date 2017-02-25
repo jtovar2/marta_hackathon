@@ -1,0 +1,34 @@
+{
+  "name": "gulp-angular-skeleton",
+  "authors": [
+    "Javier Tovar javilin93@gmail.com"
+  ],
+  "description": "A good start for an angular app.",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-smart-table": "^2.1.8",
+    "angular-route": "^1.5.9",
+    "angular-foundation": "^0.8.0",
+    "foundation": "^5.5.3",
+    "foundation-icon-fonts": "latest",
+    "angular-animate": "^1.6.1",
+    "papaparse": "^4.1.2",
+    "js-xlsx": "^0.8.0",
+    "ng-file-upload": "^12.2.13",
+    "angular-loading-bar": "latest",
+    "angular-ui-router": "^0.3.2",
+    "toastr": "^2.1.3",
+    "angular-toastr": "^2.1.1",
+    "angular-google-maps": "^2.4.1",
+    "angularjs-geolocation": "^0.1.1"
+  }
+}

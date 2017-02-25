@@ -1,0 +1,7 @@
+import requests
+
+def get_all_buses():
+    buses = request.get("http://developer.itsmarta.com/BRDRestService/RestBusRealTimeService/GetAllBus")
+    print buses.json()
+
+get_all_buses()

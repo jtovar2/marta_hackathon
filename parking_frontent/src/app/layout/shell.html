@@ -1,0 +1,36 @@
+
+<div style="height: 100%" ng-controller="ShellController as vm">
+    <header class="primary-header">
+        <top-bar class="hd-header-bar">
+            <ul class="title-area">
+                <li class="name">
+
+                    <a ui-sref="home()" class="headerLabel">HomePage</a>
+                </li>
+                <li toggle-top-bar class="menu-icon"><a href="#">Menu</a></li>
+            </ul>
+
+            <top-bar-section>
+                <!--Right Nav Section-->
+                <ul class="right">
+                    <li has-dropdown>
+                        <a></a>
+                        <a href="/#/">Menu</a>
+                        <ul top-bar-dropdown>
+                            <li><a ui-sref="view1()">View1</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </top-bar-section>
+        </top-bar>
+    </header>
+    <div class="page-container">
+        <div class="main-container">
+            <div ui-view="" autoscroll="true"></div>
+        </div>
+    </div>
+    <footer class="primary-footer">
+
+    </footer>
+</div>
