@@ -1,0 +1,4 @@
+service/ui_build/
+bower_components/
+node_modules/
+.tmp/
